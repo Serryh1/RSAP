@@ -788,7 +788,6 @@ void HRA::HRASolve(const int &k, const vector<pair<double,double>> &VehilcePosit
         cout << "End_S is :" << End_S << endl;
         cout << "Connect_T is :" << Connect_T << endl;
         
-        tot += MinDist;
         vector<int> Path;
         // V 
         Path.push_back(VechicleId);
